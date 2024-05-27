@@ -183,7 +183,7 @@ do_batch_transaction.batch_transaction <- function(transaction,
             "message"=message(msg, call.=FALSE)
         )
     }
-    statuses
+    reslst
 }
 
 
